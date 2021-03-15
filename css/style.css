@@ -1,0 +1,115 @@
+/* -------------- UTILITY -------------- */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flex{
+  display: flex;
+}
+
+.between{
+  justify-content: space-between;
+}
+
+.col{
+  flex-direction: column;
+}
+
+.list-none{
+  list-style: none;
+}
+
+  .mar-right{
+  margin-right: 15px;
+}
+
+
+  /* -------------- ELEMENTS -------------- */
+
+
+.nav{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 40px;
+}
+
+.left-side, .right-side{
+  margin-top: 40px;
+}
+
+.left-side li:last-child{
+  color: #999;
+}
+
+ul li {
+  padding: 20px;
+}
+
+img{
+  width: 20px;
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+
+.btn-menu{
+  color: #999;
+  position: relative;
+}
+
+.left-side li:hover, .btn-menu:hover{
+  color: #000;
+  cursor: pointer;
+}
+
+.menu{
+  display: none;
+  position: absolute;
+  box-shadow: 5px 5px 10px #ccc;
+  border-radius: 10px;
+  background: #fff;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 60px;
+}
+
+.menu.active{
+  display: flex;
+}
+
+.menu li {
+  padding: 0;
+  padding-top: 10px;
+  width: 150px;
+  color: #999;
+}
+
+.menu li:hover{
+  color: #000;
+}
+
+.sign{
+  position: relative;
+  top: 20px;
+  height: 20px;
+  line-height: 0;
+  background: #ebebeb;
+  border-radius: 15px;
+}
+
+.get{
+  position: relative;
+  top: 20px;
+  height: 20px;
+  line-height: 0;
+  background: #000;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.sign:hover, .get:hover{
+  cursor: pointer;
+} 
